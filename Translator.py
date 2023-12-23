@@ -77,7 +77,7 @@ class MyTranslator:
                 print("Recognizing...")
 
                 # Use RapidAPI key here
-                rapid_api_key = "bbf569d92fmsh63ef827ea680d01p1dae90jsn296d7f935188"
+                rapid_api_key = "your key"
                 text = self.recognizer.recognize_google(audio, key=rapid_api_key)
 
                 print(f"Recognized Text: {text}")
